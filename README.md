@@ -199,6 +199,13 @@ The next stage will examine:
 - conduct duration
 - enforcement delay
 - relationships between enforcement characteristics and penalty size
+## Tableau Dashboard
+
+An initial Tableau Public dashboard has been published with headline enforcement metrics.
+
+[View the Tableau dashboard](https://public.tableau.com/views/FCAEnforcementandRegulatoryBreachAnalysis2021-2025/Analysisof98FCAfinecasesDashboardv1)
+
+The dashboard will be expanded as the SQL and Pandas analysis progresses.
 Disclaimer:
 This is an independent portfolio project based on publicly available FCA information.
 The analytical classifications, transformations and interpretations used in this repository are the author's own and should not be treated as official FCA classifications or regulatory guidance.
