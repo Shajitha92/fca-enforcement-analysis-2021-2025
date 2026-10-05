@@ -199,6 +199,6 @@ The next stage will examine:
 - conduct duration
 - enforcement delay
 - relationships between enforcement characteristics and penalty size
-Disclaimer
+Disclaimer:
 This is an independent portfolio project based on publicly available FCA information.
 The analytical classifications, transformations and interpretations used in this repository are the author's own and should not be treated as official FCA classifications or regulatory guidance.
