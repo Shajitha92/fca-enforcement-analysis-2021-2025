@@ -1,7 +1,5 @@
 -- ============================================================
--- Analysis 1: 2024 penalties above £1 million
--- Question:
--- Which FCA fine cases in 2024 had penalties above £1 million?
+-- Analysis 1: 2024 cases with penalties above £1 million
 -- ============================================================
 
 SELECT
