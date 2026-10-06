@@ -1,6 +1,6 @@
 
 **SQL:** See `sql/04_analysis.sql`.
-## 2024 cases with penalties above £1 million
+## 1. 2024 cases with penalties above £1 million
 
 **Analysis 1:** 2024 cases with penalties above £1 million
 
