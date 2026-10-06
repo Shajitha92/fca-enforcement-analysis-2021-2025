@@ -45,3 +45,22 @@ A `CASE` expression was used to classify cases into:
 - **Missing** — no usable penalty amount
 
 This demonstrates conditional classification in SQL and creates a simple analytical grouping that can be reused in later aggregation and visualisation.
+
+## 3. 2024 penalty bands
+
+**Question:** How are 2024 enforcement cases distributed by penalty size?
+
+### Findings
+
+Of the 27 FCA fine cases recorded in 2024:
+
+- **15 cases** had penalties above £1 million.
+- **12 cases** had penalties of £1 million or less.
+
+The large-penalty group accounted for **£173.48 million** of the **£176.05 million** total penalty value recorded for 2024.
+
+### Interpretation
+
+Although large-penalty cases represented just over half of the 2024 cases, they accounted for approximately **98.54% of the total penalty value**.
+
+This indicates a highly concentrated penalty distribution, where a relatively small number of high-value enforcement actions dominate the annual monetary total.
