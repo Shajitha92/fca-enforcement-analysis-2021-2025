@@ -24,3 +24,20 @@ SELECT ROUND ((SUM(CASE
                     )AS percentage
 FROM fca_fines_clean
 WHERE year = 2024;
+
+-- ============================================================
+-- Analysis 2: 2024 penalty size classification
+-- ============================================================
+
+SELECT
+    case_id,
+    entity_name_clean,
+    amount_numeric,
+    CASE
+        WHEN amount_numeric IS NULL THEN 'Missing'
+        WHEN amount_numeric > 1000000 THEN 'Large'
+        ELSE 'Small'
+    END AS penalty_band
+FROM fca_fines_clean
+WHERE year = 2024
+ORDER BY amount_numeric DESC;
