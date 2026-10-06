@@ -1,9 +1,8 @@
 
+**SQL:** See `sql/04_analysis.sql`.
 ## 2024 cases with penalties above £1 million
 
 **Analysis 1:** 2024 cases with penalties above £1 million
-
-**SQL:** See `sql/04_analysis.sql`.
 
 ### Findings
 
@@ -32,3 +31,17 @@ Total penalties recorded for 2024 were **£176,045,385**.
 The 15 cases with penalties above £1 million contributed approximately **98.54%** of the total 2024 penalty value.
 
 This shows that the 2024 annual penalty total was highly concentrated in a relatively small number of large enforcement actions.
+
+## 2. 2024 penalty size classification
+
+**Analysis 2:** How can 2024 enforcement cases be grouped by penalty size?
+
+### Findings
+
+A `CASE` expression was used to classify cases into:
+
+- **Large** — penalty above £1 million
+- **Small** — penalty of £1 million or less
+- **Missing** — no usable penalty amount
+
+This demonstrates conditional classification in SQL and creates a simple analytical grouping that can be reused in later aggregation and visualisation.
