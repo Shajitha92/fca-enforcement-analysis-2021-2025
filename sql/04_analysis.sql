@@ -62,3 +62,18 @@ FROM fca_fines_clean
 WHERE year = 2024
 GROUP BY penalty_band
 ORDER BY total_penalties DESC;
+
+-- ============================================================
+-- Analysis 4: 2024 misconduct themes with more than 2 cases
+-- Which misconduct themes appeared in more than 2 FCA fine
+-- cases during 2024?
+-- ============================================================
+
+SELECT
+    primary_misconduct_theme,
+    COUNT(case_id) AS case_count
+FROM fca_tableau_cases
+WHERE year = 2024
+GROUP BY primary_misconduct_theme
+HAVING COUNT(case_id) > 2
+ORDER BY case_count DESC;
