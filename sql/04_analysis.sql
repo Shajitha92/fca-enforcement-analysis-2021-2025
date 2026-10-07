@@ -77,3 +77,19 @@ WHERE year = 2024
 GROUP BY primary_misconduct_theme
 HAVING COUNT(case_id) > 2
 ORDER BY case_count DESC;
+
+-- ============================================================
+-- Analysis 5: Combine case data with misconduct classification
+-- Can cleaned case-level enforcement data be successfully
+-- joined to the analytical misconduct classification?
+-- ============================================================
+
+SELECT
+    f.case_id,
+    f.entity_name_clean,
+    f.year,
+    f.amount_numeric,
+    c.primary_misconduct_theme
+FROM fca_fines_clean AS f
+LEFT JOIN fca_case_classification AS c
+    ON f.case_id = c.case_id;
