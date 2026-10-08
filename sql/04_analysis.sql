@@ -93,3 +93,18 @@ SELECT
 FROM fca_fines_clean AS f
 LEFT JOIN fca_case_classification AS c
     ON f.case_id = c.case_id;
+-- ============================================================
+-- Analysis 6: Total penalties by misconduct theme
+-- Which misconduct themes accounted for the highest total
+-- penalty values across 2021–2025?
+-- ============================================================
+
+SELECT
+    c.primary_misconduct_theme,
+    COUNT(f.case_id) AS case_count,
+    SUM(f.amount_numeric) AS total_penalties
+FROM fca_fines_clean AS f
+LEFT JOIN fca_case_classification AS c
+    ON f.case_id = c.case_id
+GROUP BY c.primary_misconduct_theme
+ORDER BY total_penalties DESC;
