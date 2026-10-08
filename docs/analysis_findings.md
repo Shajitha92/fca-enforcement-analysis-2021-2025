@@ -109,3 +109,32 @@ The result confirms that the case-level and classification datasets can be integ
 Using a `LEFT JOIN` is important because the cleaned enforcement-case dataset remains the base population. If a classification were missing, the enforcement case would still appear in the result, making missing classifications visible rather than silently removing those cases.
 
 The joined dataset provides the foundation for subsequent analysis of penalty values by misconduct category, including case counts, total penalties, average penalties and year-by-year patterns.
+
+## 6. Total penalties by misconduct theme
+
+**Question:** Which misconduct themes accounted for the highest total penalty values across 2021–2025?
+
+### Findings
+
+| Misconduct theme | Case count | Total penalties |
+|---|---:|---:|
+| Financial Crime / AML | 22 | £775,331,008.48 |
+| Consumer Treatment | 7 | £114,474,600.00 |
+| Market Conduct / Market Abuse / Wholesale Conduct | 15 | £86,170,524.00 |
+| Disclosure / Listing / Reporting | 9 | £66,488,875.00 |
+| Governance / Systems & Controls / Regulatory Compliance | 7 | £47,732,646.00 |
+| Integrity / Fitness & Propriety / Cooperation | 16 | £25,980,118.92 |
+| Suitability / Advice / Mis-selling | 15 | £11,072,378.00 |
+| Conflicts of Interest | 2 | £9,333,560.00 |
+| Competition / Antitrust | 3 | £154,300.00 |
+| Data Protection / Privacy | 2 | £1,052.00 |
+
+### Interpretation
+
+Financial Crime / AML was both the most frequent primary misconduct theme and the category associated with the highest total penalty value. Its 22 cases accounted for approximately **£775.3 million**, around **68% of all recorded penalties** in the dataset.
+
+However, case frequency does not directly correspond to monetary impact. For example, Integrity / Fitness & Propriety / Cooperation had 16 cases, making it one of the most common categories, but accounted for only about **£26.0 million** in penalties. By contrast, Consumer Treatment had only 7 cases but generated approximately **£114.5 million** in penalties.
+
+This shows why both case counts and penalty values are needed when assessing enforcement patterns. Case counts indicate how frequently a type of misconduct appears, while total penalties provide a different measure of its monetary significance within the dataset.
+
+The results should not be interpreted as measuring the inherent seriousness of each misconduct category. Penalty amounts can be affected by case-specific factors, and the analysis describes the observed enforcement outcomes in this 2021–2025 dataset.
