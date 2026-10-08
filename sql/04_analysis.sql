@@ -108,3 +108,31 @@ LEFT JOIN fca_case_classification AS c
     ON f.case_id = c.case_id
 GROUP BY c.primary_misconduct_theme
 ORDER BY total_penalties DESC;
+
+-- ============================================================
+-- Analysis 7: Annual penalty comparison, 2021–2025
+-- How did the value of FCA penalties in 2021 compare with
+-- subsequent years from 2022 to 2025?
+-- ============================================================
+
+SELECT
+    year,
+    COUNT(case_id) AS case_count,
+    SUM(amount_numeric) AS total_penalties
+FROM fca_fines_clean
+GROUP BY year
+ORDER BY year;
+
+-- ============================================================
+-- Analysis 7: Annual penalty comparison, 2021–2025
+-- How did the value of FCA penalties in 2021 compare with
+-- subsequent years from 2022 to 2025?
+-- ============================================================
+
+SELECT
+    year,
+    COUNT(case_id) AS case_count,
+    SUM(amount_numeric) AS total_penalties
+FROM fca_fines_clean
+GROUP BY year
+ORDER BY year;
