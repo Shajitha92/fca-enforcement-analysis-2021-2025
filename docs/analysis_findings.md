@@ -138,3 +138,64 @@ However, case frequency does not directly correspond to monetary impact. For exa
 This shows why both case counts and penalty values are needed when assessing enforcement patterns. Case counts indicate how frequently a type of misconduct appears, while total penalties provide a different measure of its monetary significance within the dataset.
 
 The results should not be interpreted as measuring the inherent seriousness of each misconduct category. Penalty amounts can be affected by case-specific factors, and the analysis describes the observed enforcement outcomes in this 2021–2025 dataset.
+
+## 7. Annual penalty comparison, 2021–2025
+
+**Question:** How did the value of FCA penalties in 2021 compare with subsequent years from 2022 to 2025?
+
+### Findings
+
+| Year | Case count | Total penalties |
+|---|---:|---:|
+| 2021 | 10 | £567,765,219.95 |
+| 2022 | 26 | £215,351,438.00 |
+| 2023 | 12 | £53,354,600.00 |
+| 2024 | 27 | £176,045,385.00 |
+| 2025 | 23 | £124,222,419.45 |
+
+Across the five-year dataset, recorded penalties totalled approximately **£1.137 billion**.
+
+Despite containing only 10 cases, **2021 accounted for approximately 49.95% of all recorded penalty value**.
+
+The £567.8 million recorded in 2021 was almost equal to the combined **£569.0 million** recorded across 2022–2025.
+
+Compared with 2021, total annual penalties were approximately 62% lower in 2022, 91% lower in 2023, 69% lower in 2024 and 78% lower in 2025.
+
+### Interpretation
+
+2021 stands out as an unusually high-value enforcement year within the dataset, but this was not driven by a high number of cases. Instead, the annual total was strongly influenced by a small number of very large penalties.
+
+This highlights the importance of analysing both enforcement frequency and monetary value. Annual penalty totals can be highly sensitive to individual large cases and should not be interpreted as a direct measure of overall enforcement intensity.
+
+2021 also falls within the period when economic and regulatory activity was emerging from the disruption associated with the COVID-19 pandemic. However, this dataset alone does not establish any causal relationship between the pandemic, the recovery period and FCA penalty levels.
+
+## 7. Annual penalty comparison, 2021–2025
+
+**Question:** How did the value of FCA penalties in 2021 compare with subsequent years from 2022 to 2025?
+
+
+### Findings
+
+| Year | Case count | Total penalties |
+|---|---:|---:|
+| 2021 | 10 | £567,765,219.95 |
+| 2022 | 26 | £215,351,438.00 |
+| 2023 | 12 | £53,354,600.00 |
+| 2024 | 27 | £176,045,385.00 |
+| 2025 | 23 | £124,222,419.45 |
+
+Across the five-year dataset, recorded penalties totalled approximately **£1.137 billion**.
+
+Despite containing only 10 cases, **2021 accounted for approximately 49.95% of all recorded penalty value**.
+
+The £567.8 million recorded in 2021 was almost equal to the combined **£569.0 million** recorded across 2022–2025.
+
+Compared with 2021, total annual penalties were approximately 62% lower in 2022, 91% lower in 2023, 69% lower in 2024 and 78% lower in 2025.
+
+### Interpretation
+
+2021 stands out as an unusually high-value enforcement year within the dataset, but this was not driven by a high number of cases. Instead, the annual total was strongly influenced by a small number of very large penalties.
+
+This highlights the importance of analysing both enforcement frequency and monetary value. Annual penalty totals can be highly sensitive to individual large cases and should not be interpreted as a direct measure of overall enforcement intensity.
+
+2021 also falls within the period when economic and regulatory activity was emerging from the disruption associated with the COVID-19 pandemic. However, this dataset alone does not establish any causal relationship between the pandemic, the recovery period and FCA penalty levels.
