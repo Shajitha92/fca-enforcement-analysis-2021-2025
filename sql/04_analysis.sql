@@ -124,15 +124,19 @@ GROUP BY year
 ORDER BY year;
 
 -- ============================================================
--- Analysis 7: Annual penalty comparison, 2021–2025
--- How did the value of FCA penalties in 2021 compare with
--- subsequent years from 2022 to 2025?
+-- Analysis 8: Average vs median penalties by year
+-- Were annual penalty values representative of typical cases,
+-- or were annual averages influenced by extreme penalties?
 -- ============================================================
 
 SELECT
     year,
-    COUNT(case_id) AS case_count,
-    SUM(amount_numeric) AS total_penalties
+    ROUND(AVG(amount_numeric), 2) AS avg_penalty,
+    ROUND(
+        PERCENTILE_CONT(0.5)
+        WITHIN GROUP (ORDER BY amount_numeric)::numeric,
+        2
+    ) AS median_penalty
 FROM fca_fines_clean
 GROUP BY year
 ORDER BY year;
