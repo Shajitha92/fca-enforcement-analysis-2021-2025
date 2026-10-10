@@ -169,33 +169,34 @@ This highlights the importance of analysing both enforcement frequency and monet
 
 2021 also falls within the period when economic and regulatory activity was emerging from the disruption associated with the COVID-19 pandemic. However, this dataset alone does not establish any causal relationship between the pandemic, the recovery period and FCA penalty levels.
 
-## 7. Annual penalty comparison, 2021–2025
+## 8. Average vs median penalties by year
 
-**Question:** How did the value of FCA penalties in 2021 compare with subsequent years from 2022 to 2025?
-
+**Question:** Were annual penalty totals representative of typical FCA fine cases, or were they influenced by unusually large penalties?
 
 ### Findings
 
-| Year | Case count | Total penalties |
+| Year | Average penalty | Median penalty |
 |---|---:|---:|
-| 2021 | 10 | £567,765,219.95 |
-| 2022 | 26 | £215,351,438.00 |
-| 2023 | 12 | £53,354,600.00 |
-| 2024 | 27 | £176,045,385.00 |
-| 2025 | 23 | £124,222,419.45 |
+| 2021 | £56,776,522 | £410,200 |
+| 2022 | £8,614,058 | £811,900 |
+| 2023 | £4,446,217 | £3,073,550 |
+| 2024 | £6,520,199 | £1,377,968 |
+| 2025 | £5,400,975 | £309,843 |
 
-Across the five-year dataset, recorded penalties totalled approximately **£1.137 billion**.
+The difference between average and median penalties varies substantially across the five years.
 
-Despite containing only 10 cases, **2021 accounted for approximately 49.95% of all recorded penalty value**.
+The largest divergence occurred in **2021**, when the average penalty was approximately **£56.8 million**, compared with a median of only **£410,200**. The average was around **138 times the median**.
 
-The £567.8 million recorded in 2021 was almost equal to the combined **£569.0 million** recorded across 2022–2025.
-
-Compared with 2021, total annual penalties were approximately 62% lower in 2022, 91% lower in 2023, 69% lower in 2024 and 78% lower in 2025.
+Large average-to-median gaps were also present in 2022 and 2025, while 2023 showed the closest relationship between the two measures.
 
 ### Interpretation
 
-2021 stands out as an unusually high-value enforcement year within the dataset, but this was not driven by a high number of cases. Instead, the annual total was strongly influenced by a small number of very large penalties.
+The large gaps between average and median values show that FCA penalty distributions are strongly right-skewed in several years.
 
-This highlights the importance of analysing both enforcement frequency and monetary value. Annual penalty totals can be highly sensitive to individual large cases and should not be interpreted as a direct measure of overall enforcement intensity.
+In particular, the very high 2021 average does not describe a typical 2021 case. Instead, a small number of exceptionally large penalties substantially increased both the annual total and the mean.
 
-2021 also falls within the period when economic and regulatory activity was emerging from the disruption associated with the COVID-19 pandemic. However, this dataset alone does not establish any causal relationship between the pandemic, the recovery period and FCA penalty levels.
+The median therefore provides an important complementary measure because it is less affected by extreme values.
+
+2023 presents a contrasting pattern: its average and median penalties were comparatively close, suggesting that its annual penalty distribution was less dominated by very large outliers.
+
+For 2022, the average penalty is calculated from 25 available penalty values because one case has no usable penalty amount in the source data.
